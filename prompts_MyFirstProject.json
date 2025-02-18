@@ -15,10 +15,10 @@
             "text": "This is a dummy prompt for testing purposes.",
             "default": false,
             "api": "Local",
-            "model": "meta-llama/llama-guard-3-8b",
+            "model": "huanlin/Tifa-Deepsex-14b-CoT-GGUF-Q4:latest",
             "max_tokens": 200,
             "temperature": 0.7,
-            "provider": "OpenRouter",
+            "provider": "OpenAI",
             "type": "prompt"
         }
     ],
@@ -38,10 +38,10 @@
             "text": "Provide a concise summary of the project that retains all relevant information and is optimized for token count. All that counts is that an LLM can read and understand the summary, so it's okay to cut corners and abbreviate, use ampersands and whatever is needed to save tokens.",
             "default": false,
             "api": "Local",
-            "model": "google/gemini-2.0-flash-001",
+            "model": "huanlin/Tifa-Deepsex-14b-CoT-GGUF-Q4:latest",
             "max_tokens": 200,
             "temperature": 0.7,
-            "provider": "OpenRouter",
+            "provider": "OpenAI",
             "type": "prompt"
         }
     ],
@@ -60,8 +60,8 @@
             "name": "OpenRouterTest",
             "text": "You are collaborating with the author to write a scene. Write the scene in {pov} point of view, from the perspective of {pov_character}, and in {tense}.",
             "default": false,
-            "provider": "OpenRouter",
-            "model": "liquid/lfm-7b",
+            "provider": "OpenAI",
+            "model": "hf.co/TheBloke/Tiamat-7B-1.1-DPO-GGUF:Q6_K",
             "max_tokens": 2000,
             "temperature": 1.0,
             "type": "prompt"
@@ -82,8 +82,8 @@
             "name": "Clarity",
             "text": "Rewrite the selected text for clarity. If there are adverbs, replace them with strong verbs.",
             "default": false,
-            "provider": "OpenRouter",
-            "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+            "provider": "OpenAI",
+            "model": "huanlin/Tifa-Deepsex-14b-CoT-GGUF-Q4:latest",
             "max_tokens": 2000,
             "temperature": 0.7,
             "type": "prompt"

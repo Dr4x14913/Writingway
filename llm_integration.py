@@ -29,7 +29,6 @@ def get_llm_settings():
     defaults = {
         "provider": "Local",
         "endpoint": "http://localhost:1234/v1/chat/completions",
-        "model": "local-model",
         "api_key": "",
         "timeout": 30
     }

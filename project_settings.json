@@ -4,5 +4,10 @@
         "global_pov": "Third Person Limited",
         "global_pov_character": "Alice",
         "global_tense": "Past Tense"
+    },
+    "Test": {
+        "global_pov": "Third Person",
+        "global_pov_character": "Alice",
+        "global_tense": "Present Tense"
     }
 }

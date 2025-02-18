@@ -104,7 +104,8 @@ def create_summary(project_window):
     QApplication.processEvents()  # Update UI
 
     # Force an override to use a valid model ID (adjust as needed).
-    overrides = {"model": "gpt-3.5-turbo"}
+    # overrides = {"model": "gpt-3.5-turbo"}
+    overrides = {}
     generated_summary = send_prompt_to_llm(final_prompt, overrides=overrides)
     if not generated_summary:
         QMessageBox.warning(project_window, "Summary", "LLM returned no output.")

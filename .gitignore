@@ -9,9 +9,6 @@ env/
 venv/
 .venv/
 
-# Ignore personal settings and API keys
-settings.json
-
 # Ignore backups and temporary files
 *.bak.json
 *.zip

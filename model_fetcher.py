@@ -112,8 +112,9 @@ class ModelFetcher(QObject):
             headers = {
                 'Authorization': f'Bearer {api_key}',
             }
+            endpoint = config.get('endpoint', 'https://api.openai.com/v1/models')
             response = requests.get(
-                'https://api.openai.com/v1/models',
+                endpoint.split("v1")[0] + "v1/models",
                 headers=headers,
                 timeout=10
             )

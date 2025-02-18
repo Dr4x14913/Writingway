@@ -1,0 +1,16 @@
+{
+    "theme": "Standard",
+    "tts_fast": false,
+    "autosave": false,
+    "llm_configs": [
+        {
+            "name": "ollama",
+            "provider": "OpenAI",
+            "endpoint": "https://ollama.natflix.daviaud.eu/v1/chat/completions",
+            "api_key": "test",
+            "model": "hf.co/TheBloke/Tiamat-7B-1.1-DPO-GGUF:Q6_K",
+            "timeout": 60
+        }
+    ],
+    "active_llm_config": "ollama"
+}
