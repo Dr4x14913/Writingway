@@ -6,7 +6,7 @@ import json
 import re
 import threading
 
-import pyttsx3  # (Not used directly anymore for TTS, but left for legacy if needed)
+#import pyttsx3  # (Not used directly anymore for TTS, but left for legacy if needed)
 from PyQt5.QtWidgets import (
     QMainWindow, QSplitter, QTreeWidget, QTreeWidgetItem, QTextEdit,
     QToolBar, QAction, QDialog, QVBoxLayout, QLineEdit, QPushButton,
